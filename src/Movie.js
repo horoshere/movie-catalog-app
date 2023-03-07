@@ -1,14 +1,10 @@
 import React from 'react';
 
-function Movie(props) {
-    const itemm = props.movies.map(item => {
-        return <li key={item.id}>{item.title}, {item.year}г.</li>
-    });
-
+function Movie({id, title, year}) {
     return (
         <div>
             <ul>
-                {itemm}
+                <li key={id}>{title}, {year}г.</li>
             </ul>
         </div>
     )
