@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import Movie from './Movie';
+import './App.scss';
 
 
 class App extends React.Component {
@@ -29,9 +30,9 @@ class App extends React.Component {
           ? <div className='loader'>
               <span className='loader__text'>Загрузка...</span>
             </div> 
-          : movies.map(item => {
-              return (
-                <div className='movies'>
+          : <div className='movies'>
+              {movies.map(item => {
+                return (
                   <Movie 
                     key={item.id}
                     id={item.id}
@@ -39,11 +40,13 @@ class App extends React.Component {
                     year={item.year}
                     summary={item.summary}
                     poster={item.medium_cover_image}
+                    genres={item.genres}
                   />
-                </div>
-              )
-          })}
-      </section>
+                )
+              })}
+            </div>
+          }
+        </section>
       )
       
     }
