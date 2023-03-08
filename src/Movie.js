@@ -2,11 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types'
 import './Movie.scss';
 
-function Movie({id, title, year, summary, poster, genres}) { 
+function Movie({title, year, summary, poster, genres}) { 
 
     const genre = genres.map((item, index) => {
         return <li key={index} className='movie__genres-item'>{item}</li>
-    })
+    });  
 
     return (
         <div className='movie'>
@@ -19,7 +19,7 @@ function Movie({id, title, year, summary, poster, genres}) {
                 <ul className='movie__genres'>
                     {genre}
                 </ul>
-                <p className='movie__summary'>{summary}</p>
+                <p className='movie__summary'>{summary.slice(0, 300)}...</p>
             </div>
         </div>
     )
