@@ -5,13 +5,15 @@ import './Navigation.scss'
 function Navigation() {
     return(
         <div className="nav">
-            <Link className="nav__link" to="/">Main page</Link>
-            <Link className="nav__link" to={{
-                pathname: '/about',
-                state: {
-                    fromLocation: true
-                }
-            }}>About project</Link>
+            <div className="nav__container">
+                <Link className="nav__link" to="/">Main page</Link>
+                <Link className="nav__link" to={{
+                    pathname: '/about',
+                    state: {
+                        fromLocation: true
+                    }
+                }}>About project</Link>
+            </div>
         </div>
     )
 }

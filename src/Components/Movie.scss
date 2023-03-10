@@ -4,9 +4,18 @@
     align-items: flex-start;
     flex-wrap: wrap;
     padding: 50px;
-    padding-top: 70px;
+    padding-top: 0px;
     width: 80%;
     margin: 0 auto;
+    a {
+        text-decoration: none;
+        // color: #0008fc;
+        // text-transform: uppercase;
+        // font-size: 12px;
+        // text-align: center;
+        // font-weight: 600;
+        // margin-bottom: 10px;
+    }
     .movie{
         display: flex;
         justify-content: space-between;
@@ -20,6 +29,10 @@
         color: #adaeb9;
         box-shadow: 0 13px 27px -5px rgba(50, 50, 93, 0.25), 
             0 8px 16px -8px rgba(0, 0, 0, 0.3), 0 -6px 16px -6px rgba(0, 0, 0, 0.025);
+        transition: 0.3s;
+        &:hover {
+            transform: scale(1.05);
+        }
         img{
             position: relative;
             max-width: 150px;

@@ -41,6 +41,8 @@ class Home extends React.Component {
                     summary={item.summary}
                     poster={item.medium_cover_image}
                     genres={item.genres}
+                    rating={item.rating}
+                    bigPoster={item.large_cover_image}
                   />
                 )
               })}

@@ -22,6 +22,7 @@ body {
 
 #root {
     @extend %message-shared;
+    // padding-top: 5%;
 }
 
 .loader {
@@ -31,5 +32,9 @@ body {
     justify-content: center;
     align-items: center;
     font-weight: 300;
+}
+
+.container {
+    margin-top: 10%;
 }
 
