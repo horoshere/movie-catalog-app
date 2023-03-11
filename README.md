@@ -10,6 +10,5 @@
 * Для запросов API использовалась библиотека **Axios**
 * Маршрутизация была построена с помощью **react router dom** version 5.3.4
 * Для написания стилей компонентов использовался препроцессор **SASS(SCSS)**
-
-![Example](https://sun9-76.userapi.com/impg/8b_dO-EDxEbyH_OLvpptfZRsr1aP-NDpjjqN7w/NAr8HzJJR14.jpg?size=1894x887&quality=95&sign=fa8f4a17962e007a88b0ea083b5a8af8&type=album)
+![Screenshot_3](https://user-images.githubusercontent.com/85732162/224503968-2c6ffea2-80ab-4bc7-b148-2652d9e7eba9.png)
 
