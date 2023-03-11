@@ -9,6 +9,8 @@
 * Получение фильмов по **API** https://yts.mx/api#list_movies
 * Для запросов API использовалась библиотека **Axios**
 * Маршрутизация была построена с помощью **react router dom** version 5.3.4
-* Для написания стилей компонентов использовался препроцессор **SASS(SCSS)**
-![Screenshot_3](https://user-images.githubusercontent.com/85732162/224503968-2c6ffea2-80ab-4bc7-b148-2652d9e7eba9.png)
+* Для написания стилей компонентов использовался препроцессор **SASS(SCSS)**  
+  
+  
+
 
