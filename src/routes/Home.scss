@@ -38,3 +38,23 @@ body {
     margin-top: 10%;
 }
 
+.movies {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 50px;
+    padding-top: 0px;
+    width: 80%;
+    margin: 0 auto;
+    a {
+        text-decoration: none;
+        // color: #0008fc;
+        // text-transform: uppercase;
+        // font-size: 12px;
+        // text-align: center;
+        // font-weight: 600;
+        // margin-bottom: 10px;
+    }
+}
+

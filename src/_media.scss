@@ -1,0 +1,254 @@
+@media (max-width: 1439px) {
+
+}
+
+@media (max-width: 1300px) {
+  .wrapper {
+    max-width: 650px;
+  }
+}
+
+@media (max-width: 1200px) {
+    .about {
+        &__keywords {
+            width: 100%;
+        }
+    }
+    .about {
+        padding: 30px 30px;
+        &__title {
+            font-size: 25px;
+        }
+        &__text {
+            font-size: 16px;
+        }
+        &__keywords {
+            display: grid;
+            grid-template-columns: repeat(2, auto);
+            grid-template-rows: repeat(2, auto);
+            gap: 10px;
+            width: 50%;
+            li {
+                font-size: 15px;
+            }
+        }
+        &__message {
+            &-text {
+                font-size: 18px;
+            }
+        }
+      }
+    
+      .movies {
+        padding: 0px;
+        width: 90%;
+      }
+    
+      .movie {
+        padding: 10px;
+        &__column {
+            width: 60%;
+        }
+        &__title {
+            font-size: 16px;
+        }
+        &__summary {
+            font-size: 15px;
+        }
+      }
+    
+      .detail {
+        &__summary {
+            font-size: 17px;
+        }
+        &__year {
+            font-size: 20px;
+        }
+        &__genre {
+            font-size: 20px;
+        }
+      }
+}
+
+@media (max-width: 992px) {
+    .movie {
+        &__title {
+            font-size: 15px;
+        }
+        &__genres {
+            &-item {
+                display: none;
+            }
+        }
+        &__summary {
+            font-size: 13px;
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+    }
+    .about {
+        &__title {
+            font-size: 20px;
+        }
+        &__text {
+            font-size: 14px;
+            margin-top: 30px;
+        }
+        &__keywords {
+            li {
+                font-size: 13px;
+            }
+        }
+        &__message {
+            &-text {
+                font-size: 16px;
+            }
+        }
+    }
+    .nav {
+        &__container {
+            width: 200px;
+        }
+        &__link {
+            font-size: 15px;
+        }
+    }
+
+    .detail {
+        &__title {
+            font-size: 22px;
+        }
+        &__year {
+            font-size: 16px;
+        }
+        &__genre {
+            font-size: 16px;
+        }
+        &__summary {
+            font-size: 15px;
+        }
+        &__rating {
+            font-size: 20px;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        margin-top: 15%;
+    }
+    .movies {
+        flex-direction: column;
+        align-items: center;
+        width: 70%;
+    }
+    .movie {
+        width: 100%;
+        padding: 10px;
+        img {
+            width: 80%;
+        }
+    }
+    .detail {
+        width: 80%;
+        &__title {
+            margin-block-start: 0;
+            margin-block-end: 0;
+        }
+        &__year {
+            font-size: 14px;
+            margin-top: 5px;
+        }
+        &__genre {
+            font-size: 13px;
+        }
+        &__summary {
+            font-size: 13px;
+        }
+        &__rating {
+            font-size: 17px;
+            &-img {
+                width: 25px;
+                height: 25px;
+            }
+        }
+    }
+}
+
+@media (max-width: 576px) {
+  .nav {
+    height: 10%;
+    &__link {
+        font-size: 13px;
+    }
+    &__container {
+        width: 170px;
+    }
+  }
+  .container {
+    margin-top: 25%;
+  }
+  .movie {
+    &__title {
+        font-size: 13px;
+    }
+    &__year {
+        font-size: 11px;
+    }
+    &__summary {
+        font-size: 10px;
+    }
+  }
+  .detail {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__poster {
+        width: 70%;
+    }
+    &__column {
+        margin: 0 auto;
+    }
+    &__title {
+        font-weight: 500;
+        margin-bottom: 20px;
+    }
+    &__year {
+        font-size: 12px;
+    }
+    &__genre {
+        font-size: 12px;
+    }
+    &__summary {
+        font-size: 14px;
+    }
+  }
+  .about {
+    padding: 0 20px;
+    min-width: 90%;
+    &__title {
+        font-size: 17px;
+    }
+    &__text {
+        margin-top: 15px;
+        font-size: 12px;
+    }
+    &__keywords {
+        width: 80%;
+        li{
+            font-size: 10px;
+        }
+    }
+    &__message {
+        margin-top: 20px;
+        &-text {
+            font-size: 14px;
+        }
+    }
+    img {
+        width: 25px;
+        height: 25px;
+    }
+  }
+}
