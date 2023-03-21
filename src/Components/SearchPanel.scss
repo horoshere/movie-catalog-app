@@ -1,0 +1,14 @@
+.search {
+    margin: 0 auto;
+    width: 250px;
+    height: 35px;
+    border: 1px solid #333;
+    border-radius: 20px;
+    padding: 4px 30px;
+    background: white url(../icon-search.svg) no-repeat 9px 8px;
+    position: fixed;
+    top: 3%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 10;
+}
