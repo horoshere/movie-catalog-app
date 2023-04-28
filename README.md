@@ -1,5 +1,5 @@
 # movie-catalog-app 
-Это учебный проект каталога фильмов, написанный на React JS.
+Pet проект каталога фильмов, написанный на React JS.
 [Посмотреть](https://horoshere.github.io/movie-catalog-app)
 
 ## Описание проекта:
